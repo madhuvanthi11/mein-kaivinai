@@ -1,0 +1,21 @@
+{
+  "_comment": [
+    "Copy to role_registry.json. Roles are assigned here or via Firebase custom",
+    "claims -- never by the user themselves. Key each entry by Firebase uid or",
+    "by lowercase email. 'jurisdiction' is a list of city names as they appear",
+    "in the ward registry, or [\"all\"] for state-level authority.",
+    "An Admin for Madurai cannot act on Coimbatore wards; the server enforces it."
+  ],
+  "admin_users": {
+    "officer@example.gov.in": {
+      "name": "Municipal Monitoring Officer",
+      "jurisdiction": ["Madurai"]
+    }
+  },
+  "government_users": {
+    "collector@example.gov.in": {
+      "name": "District Authority",
+      "jurisdiction": ["Madurai", "Tiruchirappalli"]
+    }
+  }
+}
