@@ -339,6 +339,3 @@ back to English, so partial bundles are safe to ship.
 
 Those four are deliberately absent rather than machine-translated. A garbled
 safety instruction is worse than no translation.
-
----
-
