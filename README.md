@@ -1,4 +1,4 @@
-# Mein Kaivinai
+# HEAT SAFE
 
 Ward-level heat-risk early warning for Tamil Nadu.
 
